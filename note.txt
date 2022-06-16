@@ -1,0 +1,59 @@
+colors:
+text-color: #000
+primary color : #21B573
+banner color: #F0FFF0
+banner sub header :#FD511A
+footer color: #282531
+
+
+
+
+title/header color: #413960
+sub-header color: #585859
+
+fonts: poppins, roboto 
+
+font-size:400, 500, 700
+
+
+reusable blocks : button, section headline/title, column title and sub-tile
+images/logo 
+
+     xxl-lg      md        sm/col        
+header:----------->>> 🔥🔥🔥
+banner_area:-
+p-
+h1-
+p-
+
+banner:----------->>> 🔥🔥🔥
+banner_area:-
+pt-   35         10
+pb-   65         60
+
+p-    16         16           16
+h1-   48-40      35
+p-    16         16           16
+
+feature:----------->>> 🔥🔥🔥
+feature_area:-
+pb-     100         80          60
+
+s_f mt- 40          40          40/40/25(col)
+h2 mt-  22          22          22
+
+
+course:----------->>> 🔥🔥🔥
+course_area:-
+pb-     100         80          60
+c_item mt- 60       60         40/35/25(col)
+
+
+testimonial:----------->>> 🔥🔥🔥
+testimonial_area:-
+pb-     100         80          60
+
+footer:----------->>> 🔥🔥🔥
+footer_area:-
+pt-     55          55          40
+pb-     100         80          60

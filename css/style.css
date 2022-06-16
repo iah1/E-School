@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto&display=swap');
+
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* background color */
+    --primary-bg-color: #21B573;
+    --secondary-bg-color: #F0FFF0;
+    --footer-bg-color: #282531;
+
+    /* text color */
+    --primary-text-color: #000000;
+    --banner-heading-color: #21B573;
+    --banner-subheading-color: #FD511A;
+    --title-text-color: #413960;
+    --subtitle-text-color: #585859;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #F7F5F5B8;
+    ;
+}
+
+
+/* Common CSS Starts */
+
+.c_btn {
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 19px;
+    background-color: var(--primary-bg-color);
+    color: #F0FFF0;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    padding: 10px 25px;
+    box-shadow: none;
+    transition: all 0.3s ease;
+}
+
+.c_btn:hover {
+    background-color: var(--banner-subheading-color);
+    color: #F0FFF0;
+}
+
+.c_title h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #000;
+}
+
+/* Common CSS Ends */
+
+
+/* header starts */
+header {
+    background-color: var(--secondary-bg-color);
+    padding: 10px 0;
+}
+
+.navbar-toggler {
+    border: 0;
+    color: var(--title-text-color);
+    line-height: 2;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.menu ul li {
+    padding: 0 24px !important;
+}
+
+.menu ul li a {
+    color: var(--primary-text-color);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+/* .menu ul li a::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: var(--banner-subheading-color);
+    left: 0;
+    bottom: 0;
+    transition: all 0.3s ease;
+}
+
+.menu ul li a.active::after,
+.menu ul li a:hover::after {
+    width: 100%;
+} */
+
+.menu ul li a.active,
+.menu ul li a:hover {
+    color: var(--banner-subheading-color);
+}
+
+/* header ends */
+
+
+/* banner starts */
+.banner_area {
+    background-color: #F0FFF0;
+    padding: 35px 0 65px;
+}
+
+.banner_area .b_text .b_red {
+    color: #FD511A;
+    line-height: 24px;
+}
+
+.banner_area .b_text h1 {
+    margin: 10px 0 20px;
+    padding-right: 100px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.banner_area .b_text h1 span {
+    color: #21B573;
+}
+
+.banner_area .b_text .b_black {
+    color: #000000;
+    line-height: 36px;
+}
+
+.btn_banner {
+    margin-top: 15px;
+    padding: 12px 36px;
+}
+
+/* banner ends */
+
+
+/* feature starts */
+.feature_area {
+    padding-bottom: 100px;
+}
+
+.feature_area .s_feature {
+    margin-top: 40px;
+    padding: 55px 0 50px;
+    background: #F0FFF0;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.feature_area .s_feature:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.feature_area .f_img {
+    max-width: 65px;
+    height: 75px;
+}
+
+.feature_area .f_img img {
+    height: 100%;
+}
+
+.feature_area .f_text h2 {
+    margin-top: 22px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+}
+
+.feature_area .f_text p {
+    line-height: 24px;
+}
+
+/* feature ends */
+
+
+/* online course starts */
+.course_area {
+    padding-bottom: 100px;
+}
+
+.course_area .c_item {
+    margin-top: 60px;
+    padding: 25px 20px 30px;
+    background: #fff;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+
+.course_area .c_item .c_img img {
+    border-radius: 11px;
+}
+
+.course_area .c_item h2 {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+}
+
+.course_area .c_item p {
+    line-height: 24px;
+}
+
+.course_area .c_item a {
+    margin: 20px 0 35px;
+    padding: 8px 28px;
+}
+
+
+
+.course_area .c_item .date ul li i {
+    font-size: 16px;
+}
+
+.course_area .c_item .seat ul li i {
+    font-size: 18px;
+}
+
+.course_area .c_item ul li span {
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* online course ends */
+
+
+/* testimonial area starts */
+.testimonial_area {
+    padding-bottom: 100px;
+}
+
+.testimonial_area .test_slider {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.testimonial_area .test_slider p {
+    margin-left: 30px;
+}
+
+.indicator {
+    bottom: -45px;
+}
+
+.indicator span[data-bs-target] {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    opacity: 0.5;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.indicator span.active {
+    opacity: 1;
+}
+
+/* testimonial area ends */
+
+
+
+/* footer area starts */
+.footer_area {
+    padding-top: 55px;
+    padding-bottom: 100px;
+    background-color: #282531;
+    color: #FFFFFF;
+}
+
+.footer_area .c_f_left {
+    margin-right: 10px;
+}
+
+.footer_area .c_f_left p {
+    line-height: 30px;
+}
+
+.footer_area .c_f_right h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.footer_area .c_f_right li a {
+    text-decoration: none;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+/* footer area ends */
+
+
+/* copyright area starts */
+.copyright_area {
+    background-color: #282531;
+    color: #FFFFFF;
+}
+
+/* copyright area ends */
